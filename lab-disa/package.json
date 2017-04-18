@@ -1,0 +1,22 @@
+{
+  "name": "lab-disa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/justdisa"
+  },
+  "keywords": [
+    "mocha",
+    "json"
+  ],
+  "author": "justdisa",
+  "license": "ISC",
+  "description": ""
+}
