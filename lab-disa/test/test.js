@@ -4,10 +4,11 @@ const assert  = require('assert');
 const recipeBook = require('../lib/call-apply.js');
 
 describe('recipeBook', function() {
-  describe('#addToIngredients', function() {
-    it('should return the array ingredients', function() {
-      let shoppingList = new recipeBook.ApplePie();
-      assert.equal(shoppingList.ingredients, '[]');
+  describe('', function() {
+    it('should have ingredients listed', function() {
+      let pieIngredients = new recipeBook.Recipe('bready', 'cayenne');
+      assert.equal(pieIngredients.crust, 'bready');
+      assert.equal(pieIngredients.spice, 'cayenne');
     });
   } );
   describe('testing call', function(){

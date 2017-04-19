@@ -1,12 +1,11 @@
 'use strict';
 module.exports = exports = {};
 
-exports.recipe = {
-  ingredients: [],
-  addToIngredients: function(){
-    Array.prototype.push.apply(this.ingredients, arguments);
-  },
+exports.Recipe = function(crust, spice) {
+  exports.Pie.apply(this, [crust, spice]);
+  this.bakingTools = true;
 };
+
 
 exports.Pie = function (crust, spice) {
   this.crust = crust;
