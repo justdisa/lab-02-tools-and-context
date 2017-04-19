@@ -6,17 +6,27 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/mocha/bin/mocha",
+    "start": "node index.js",
+    "lint": "eslint ./lib",
+    "build": "npm run lint && npm run test",
+    "install": "npm install"
   },
   "repository": {
     "type": "git",
-    "url": "\u0016https://github.com/justdisa"
+    "url": "https://github.com/justdisa"
   },
   "keywords": [
+    "test",
+    "package.json",
     "mocha",
-    "json"
+    "pie"
   ],
   "author": "justdisa",
-  "license": "ISC",
-  "description": ""
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "mocha": "^3.2.0"
+  }
 }
