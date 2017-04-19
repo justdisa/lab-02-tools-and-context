@@ -1,16 +1,15 @@
 {
-  "name": "lab-disa",
+  "name": "lab-02-tools-and-context",
   "version": "1.0.0",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha",
-    "start": "node index.js",
-    "lint": "eslint ./lib",
-    "build": "npm run lint && npm run test",
-    "install": "npm install"
+    "test": "mocha",
+    "lint": "eslint",
+    "start": "script/index.js"
+
   },
   "repository": {
     "type": "git",
