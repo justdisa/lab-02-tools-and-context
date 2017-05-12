@@ -17,12 +17,17 @@
 * make a lint script for running eslint
 * make a test script for running mocha
 * make a start script for running your index.js in node
-* create a module, and export the functionality, for each context management method; Call, Bind, and Apply.
+* create a module, and export the functionality, for each context management method; Call and Apply.
   * each module should demonstrate at least one example of how to use that method for managing the 'this' keyword's context
 * write at least two tests for each of the three modules that you've exported
+
+## Stretch
+* create a module, and exports the functionality, for the context management method `Bind`.
+* write at least two tests for this module.
 
 ## Rubric:
 * Correct Submission: 2pts
 * Passes eslint: 2Pts
 * Package.json: 3pts
 * Scripts & Tests: 3pts
+* Stretch: 2pts

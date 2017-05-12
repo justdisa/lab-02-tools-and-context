@@ -1,31 +1,32 @@
 {
-  "name": "lab-02-tools-and-context",
+  "name": "lab-disa",
   "version": "1.0.0",
+  "description": "Lab 02 for Code Fellows Javascript 401-15",
   "main": "index.js",
   "directories": {
     "test": "test"
   },
+  "dependencies": {
+    "eslint": "^3.19.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "mocha": "^3.3.0"
+  },
   "scripts": {
-    "test": "mocha",
-    "lint": "eslint",
-    "start": "script/index.js"
-
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/justdisa"
+    "url": "\u001b[2~https://github.com/justdisa"
   },
   "keywords": [
-    "test",
-    "package.json",
-    "mocha",
-    "pie"
+    "javascript",
+    "call-apply",
+    "pie",
+    "lab",
+    "testing"
   ],
   "author": "justdisa",
-  "license": "MIT",
-  "description": "",
-  "devDependencies": {
-    "eslint": "^3.19.0",
-    "mocha": "^3.2.0"
-  }
+  "license": "MIT"
 }

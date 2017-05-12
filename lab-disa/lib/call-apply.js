@@ -6,7 +6,6 @@ exports.Recipe = function(crust, spice) {
   this.bakingTools = true;
 };
 
-
 exports.Pie = function (crust, spice) {
   this.crust = crust;
   this.spice = spice;
